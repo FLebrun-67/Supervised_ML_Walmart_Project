@@ -42,21 +42,21 @@ SimpleImputer for missing values in Year and Month
 
 Performance:
 
-R² Train: 0.967
-R² Test: 0.951
-RMSE Test: 158,956
+- R² Train: 0.967
+- R² Test: 0.951
+- RMSE Test: 158,956
 
 ✅ Interpretation: the baseline model already performs extremely well, thanks to relevant variables and a simple, interpretable structure.
 
 Part 3: Regularized Models
 
-Ridge (L2)
-R² Test: 0.949 | RMSE: 162,941
-Coefficients slightly shrunk compared to baseline, but no major change in ranking
+Ridge (L2):
+- R² Test: 0.949 | RMSE: 162,941
+- Coefficients slightly shrunk compared to baseline, but no major change in ranking
 
-Lasso (L1)
-R² Test: 0.947 | RMSE: 166,009
-Some features (like CPI or Year) forced close to zero → Lasso performs feature selection
+Lasso (L1):
+- R² Test: 0.947 | RMSE: 166,009
+- Some features (like CPI or Year) forced close to zero → Lasso performs feature selection
 
 🥇 Results & Business Value
 
